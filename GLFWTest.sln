@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFWTest", "GLFWTest\GLFWTest.vcxproj", "{40D8FBC3-956A-4AB2-9BC0-034D2F8943B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freeglutTest", "freeglutTest\freeglutTest.vcxproj", "{88C6B279-29B6-4349-BD14-C45FDDA40DC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{40D8FBC3-956A-4AB2-9BC0-034D2F8943B7}.Release|x64.Build.0 = Release|x64
 		{40D8FBC3-956A-4AB2-9BC0-034D2F8943B7}.Release|x86.ActiveCfg = Release|Win32
 		{40D8FBC3-956A-4AB2-9BC0-034D2F8943B7}.Release|x86.Build.0 = Release|Win32
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Debug|x64.ActiveCfg = Debug|x64
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Debug|x64.Build.0 = Debug|x64
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Debug|x86.ActiveCfg = Debug|Win32
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Debug|x86.Build.0 = Debug|Win32
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Release|x64.ActiveCfg = Release|x64
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Release|x64.Build.0 = Release|x64
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Release|x86.ActiveCfg = Release|Win32
+		{88C6B279-29B6-4349-BD14-C45FDDA40DC5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
