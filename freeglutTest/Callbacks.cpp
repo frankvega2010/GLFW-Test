@@ -21,14 +21,13 @@ void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	/* Display a red square */
+	/* Display a red triangle */
 	glColor3f(1.0f, 0.0f, 0.0f);
 
-	glBegin(GL_POLYGON);
-	glVertex2f(-0.5f, -0.5f);
+	glBegin(GL_TRIANGLES);
+	glVertex2f(0.0f, 0.5f);
 	glVertex2f(0.5f, -0.5f);
-	glVertex2f(0.5f, 0.5f);
-	glVertex2f(-0.5f, 0.5f);
+	glVertex2f(-0.5f, -0.5f);
 	glEnd();
 
 	glFlush();
